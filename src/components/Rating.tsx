@@ -146,7 +146,7 @@ export function Rating({
   })
 
   useEffect(() => {
-    if (initialValue) dispatch({ type: 'MouseClick', payload: 0 })
+    if (initialValue !== undefined) dispatch({ type: 'MouseClick', payload: 0 })
   }, [initialValue])
 
   const totalIcons = useMemo(() => (allowFraction ? iconsCount * 2 : iconsCount), [allowFraction, iconsCount])
