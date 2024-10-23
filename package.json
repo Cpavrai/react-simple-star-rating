@@ -1,6 +1,6 @@
 {
-  "name": "react-simple-star-rating",
-  "version": "5.1.7",
+  "name": "@datascientest-developer/react-simple-star-rating",
+  "version": "5.1.8",
   "private": false,
   "description": "A simple react component for adding a star rating to your project.",
   "author": {
@@ -10,10 +10,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/awran5/react-simple-star-rating.git"
+    "url": "https://github.com/Cpavrai/react-simple-star-rating.git"
   },
   "bugs": {
-    "url": "https://github.com/awran5/react-simple-star-rating/issues"
+    "url": "https://github.com/Cpavrai/react-simple-star-rating/issues"
   },
   "homepage": "https://github.com/awran5/react-simple-star-rating#readme",
   "main": "dist/index.js",
