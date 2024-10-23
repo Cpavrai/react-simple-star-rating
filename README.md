@@ -28,7 +28,7 @@ yarn add @datascientest-developer/react-simple-star-rating
 
 ```jsx
 import React, { useState } from 'react'
-import { Rating } from 'react-simple-star-rating'
+import { Rating } from '@datascientest-developer/react-simple-star-rating'
 
 export function MyComponent() {
   const [rating, setRating] = useState(0)
@@ -62,7 +62,7 @@ export function MyComponent() {
 
 ```jsx
 import React, { useState } from 'react'
-import { Rating } from 'react-simple-star-rating'
+import { Rating } from '@datascientest-developer/react-simple-star-rating'
 
 export function MyComponent() {
   const [rating, setRating] = useState(0)
