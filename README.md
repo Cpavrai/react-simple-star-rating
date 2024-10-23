@@ -13,13 +13,13 @@
 #### npm
 
 ```sh
-npm i react-simple-star-rating
+npm i @datascientest-developer/react-simple-star-rating
 ```
 
 #### Yarn
 
 ```sh
-yarn add react-simple-star-rating
+yarn add @datascientest-developer/react-simple-star-rating
 ```
 
 <br />
