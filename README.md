@@ -102,6 +102,7 @@ export function MyComponent() {
 | `rtl`                | boolean          | Optional | RTL mode                                                  |          `false`           |
 | `transition`         | boolean          | Optional | Adds a smooth transition effect on mouse hover            |          `false`           |
 | `allowFraction`      | boolean          | Optional | Enable a fractional icon (half icon)                      |          `false`           |
+| `resetOnClick`       | boolean          | Optional | Resets value on click                                     |          `false`           |
 | `className`          | string           | Optional | Applied to the `main` span                                | `react-simple-star-rating` |
 | `style`              | CSSProperties    | Optional | Inline style applied to the `main` span                   |       `basic style`        |
 | `size`               | number           | Optional | SVG Icon width / height in `px`                           |            `25`            |

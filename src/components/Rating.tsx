@@ -42,6 +42,8 @@ export interface RatingProps extends StarIconProps {
   disableFillHover?: boolean
   /** Enable / Disable transition effect on mouse hover */
   transition?: boolean
+  /** Reset / Not reset value after onClick function */
+  resetOnClick?: boolean
   /** Applied to the `main` span */
   className?: string
   /** Inline style applied to the `main` span */
@@ -110,6 +112,7 @@ export function Rating({
   style,
   className = 'react-simple-star-rating',
   transition = false,
+  resetOnClick = false,
 
   allowHover = true,
   disableFillHover = false,
@@ -216,7 +219,8 @@ export function Rating({
   const handleClick = (event?: MouseEvent<HTMLSpanElement>) => {
     if (hoverValue) {
       dispatch({ type: 'MouseClick', payload: hoverValue })
-      if (onClick) onClick(renderValue(hoverValue), hoverIndex, event)
+      if (onClick) onClick(renderValue(hoverValue), hoverIndex, event);
+      if (resetOnClick) dispatch({type: 'MouseClick', payload: 0});
     }
   }
 
