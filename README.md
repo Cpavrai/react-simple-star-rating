@@ -106,7 +106,7 @@ export function MyComponent() {
 | `style`              | CSSProperties    | Optional | Inline style applied to the `main` span                   |       `basic style`        |
 | `size`               | number           | Optional | SVG Icon width / height in `px`                           |            `25`            |
 | `SVGstrokeColor`     | string           | Optional | SVG Icon stroke color                                     |       `currentColor`       |
-| `SVGstorkeWidth`     | string \| number | Optional | SVG Icon storke width                                     |            `0`             |
+| `SVGstrokeWidth`     | string \| number | Optional | SVG Icon storke width                                     |            `0`             |
 | `SVGclassName`       | string           | Optional | SVG Icon css class                                        |         `star-svg`         |
 | `SVGstyle`           | CSSProperties    | Optional | SVG inline style                                          |            `-`             |
 | `fillIcon`           | ReactNode        | Optional | Custom fill icon SVG                                      |           `null`           |

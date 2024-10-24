@@ -3,17 +3,17 @@ import React from 'react'
 export interface StarIconProps {
   /** Icon width / height in `px` */
   size?: number
-  SVGstrokeColor?: string
-  SVGstorkeWidth?: string | number
   SVGclassName?: string
+  SVGstrokeColor?: string
+  SVGstrokeWidth?: string | number
   SVGstyle?: React.CSSProperties
 }
 
 export function StarIcon({
   size = 25,
-  SVGstrokeColor = 'currentColor',
-  SVGstorkeWidth = 0,
   SVGclassName = 'star-svg',
+  SVGstrokeColor = 'currentColor',
+  SVGstrokeWidth = 0,
   SVGstyle
 }: StarIconProps) {
   return (
@@ -22,7 +22,7 @@ export function StarIcon({
       style={SVGstyle}
       stroke={SVGstrokeColor}
       fill='currentColor'
-      strokeWidth={SVGstorkeWidth}
+      strokeWidth={SVGstrokeWidth}
       viewBox='0 0 24 24'
       width={size}
       height={size}

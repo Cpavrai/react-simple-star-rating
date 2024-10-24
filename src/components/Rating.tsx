@@ -135,8 +135,8 @@ export function Rating({
   SVGclassName = 'star-svg',
   titleSeparator = 'out of',
   SVGstyle,
-  SVGstorkeWidth = 0,
-  SVGstrokeColor = 'currentColor'
+  SVGstrokeColor = 'currentColor',
+  SVGstrokeWidth = 0
 }: RatingProps) {
   const [{ ratingValue, hoverValue, hoverIndex, valueIndex }, dispatch] = useReducer(reducer, {
     hoverIndex: 0,
@@ -291,7 +291,7 @@ export function Rating({
                 <StarIcon
                   SVGclassName={SVGclassName}
                   SVGstyle={SVGstyle}
-                  SVGstorkeWidth={SVGstorkeWidth}
+                  SVGstrokeWidth={SVGstrokeWidth}
                   SVGstrokeColor={SVGstrokeColor}
                   size={size}
                 />
@@ -317,7 +317,7 @@ export function Rating({
                 <StarIcon
                   SVGclassName={SVGclassName}
                   SVGstyle={SVGstyle}
-                  SVGstorkeWidth={SVGstorkeWidth}
+                  SVGstrokeWidth={SVGstrokeWidth}
                   SVGstrokeColor={SVGstrokeColor}
                   size={size}
                 />
